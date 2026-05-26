@@ -1,9 +1,9 @@
 # Projeto de Mineração de Dados: Análise Demográfica e Ocupação Domiciliar em SP.
 
-Este projeto tem como objetivo realizar a mineração de dados para identificar padrões de ocupação em domicílios no Estado de São Paulo, utilizando dados do Censo Demográfico do IBGE SIDRA.
+Este projeto tem como objetivo realizar a mineração de dados para identificar padrões de ocupação em domicílios no Estado de São Paulo, comparado-o com os demais Estados brasileiros, utilizando dados do Censo Demográfico do IBGE SIDRA.
 
 # Objetivo da Análise
-A análise foca em compreender a relação entre o perfil demográfico por gênero e a média de moradores por domicílio, investigando como diferentes grupos populacionais ocupam o espaço habitacional no estado de São Paulo comparados com os demais Estados do Brasil.
+A análise foca em compreender a evolução da média de moradores por domicílio, investigando como diferentes regiões de grupos populacionais ocupam o espaço habitacional no estado de São Paulo comparados com os demais Estados do Brasil, nos anos 2022 e 2025.
 
 # Metodologia
 - **Base de Dados**: Integração de dados da tabela 6678 do IBGE SIDRA: Domicílios, por número de moradores, comparativo anos 2022 e 2025.
@@ -15,7 +15,7 @@ A análise foca em compreender a relação entre o perfil demográfico por gêne
   - **Associação**: Algoritmo Apriori para extração de regras de comportamento demográfico e padrões de ocupação.
 
 # Resultados
-O estudo identifica padrões consistentes de ocupação, revelando correlações significativas entre gênero e a densidade média de moradores por domicílio no estado, validando a eficácia das técnicas de mineração de dados na interpretação de estatísticas populacionais.
+O estudo identifica padrões consistentes de ocupação, sua evolução ao passar dos anos, considerando a densidade média de moradores por domicílio no estado, validando a eficácia das técnicas de mineração de dados na interpretação de estatísticas populacionais.
 
 
 # Objetivo do Projeto
@@ -26,7 +26,6 @@ Foram utilizadas técnicas de mineração de dados para identificar:
 
 * padrões demográficos;
 * agrupamentos semelhantes entre municípios;
-* relações entre os perfis de moradores nos domicílios.
 
 # Base de Dados
 
@@ -67,9 +66,9 @@ O algoritmo K-Means foi utilizado para agrupar municípios com características 
 
 O modelo identificou:
 
-* grupos de municípios com perfis parecidos;
+* grupos de Estados com perfis parecidos;
 * padrões demográficos semelhantes;
-* diferenças entre municípios brasileiros.
+* diferenças entre os Estados brasileiros.
 
 Também foi utilizado:
 
