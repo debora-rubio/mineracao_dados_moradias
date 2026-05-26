@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Projeto de Mineração de Dados – Domicílios por Número de Moradores.
-=======
 # Projeto de Mineração de Dados: Análise Demográfica e Ocupação Domiciliar em SP.
 
 Este projeto tem como objetivo realizar a mineração de dados para identificar padrões de ocupação em domicílios no Estado de São Paulo, utilizando dados do Censo Demográfico do IBGE SIDRA.
@@ -20,7 +17,6 @@ A análise foca em compreender a relação entre o perfil demográfico (faixa et
 # Resultados
 O estudo identifica padrões consistentes de ocupação, revelando correlações significativas entre gênero, faixa etária e a densidade média de moradores por domicílio no estado, validando a eficácia das técnicas de mineração de dados na interpretação de estatísticas populacionais.
 
->>>>>>> 046e5c176f7e69a8aa052285ba813b37c21ee995
 
 # Objetivo do Projeto
 
@@ -118,14 +114,14 @@ O projeto contém:
 
 # Estrutura do Projeto
 
-```bash
+
 📂 projeto_mineracao_dados
  ├── moradias.ipynb
  ├── domicilios num moradores brasil.xlsx
  ├── README.md
  ├── LICENSE
 
-```
+
 
 # Como Executar
 
