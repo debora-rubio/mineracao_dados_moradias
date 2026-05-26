@@ -114,14 +114,14 @@ O projeto contém:
 
 # Estrutura do Projeto
 
-
+```bash
 📂 projeto_mineracao_dados
  ├── moradias.ipynb
  ├── domicilios num moradores brasil.xlsx
  ├── README.md
  ├── LICENSE
 
-
+```
 
 # Como Executar
 
