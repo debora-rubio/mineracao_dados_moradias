@@ -3,10 +3,10 @@
 Este projeto tem como objetivo realizar a mineração de dados para identificar padrões de ocupação em domicílios no Estado de São Paulo, utilizando dados do Censo Demográfico do IBGE SIDRA.
 
 # Objetivo da Análise
-A análise foca em compreender a relação entre o perfil demográfico (faixa etária e gênero dos moradores) e a média de moradores por domicílio, investigando como diferentes grupos populacionais ocupam o espaço habitacional no estado de São Paulo.
+A análise foca em compreender a relação entre o perfil demográfico por gênero e a média de moradores por domicílio, investigando como diferentes grupos populacionais ocupam o espaço habitacional no estado de São Paulo comparados com os demais Estados do Brasil.
 
 # Metodologia
-- **Base de Dados**: Integração de dados das tabelas 4712 (Domicílios Particulares Ocupados) e 10243 (Média de moradores por idade e sexo) do IBGE SIDRA.
+- **Base de Dados**: Integração de dados da tabela 6678 do IBGE SIDRA: Domicílios, por número de moradores, comparativo anos 2022 e 2025.
 
 - **Técnicas Aplicadas**:
 
@@ -15,7 +15,7 @@ A análise foca em compreender a relação entre o perfil demográfico (faixa et
   - **Associação**: Algoritmo Apriori para extração de regras de comportamento demográfico e padrões de ocupação.
 
 # Resultados
-O estudo identifica padrões consistentes de ocupação, revelando correlações significativas entre gênero, faixa etária e a densidade média de moradores por domicílio no estado, validando a eficácia das técnicas de mineração de dados na interpretação de estatísticas populacionais.
+O estudo identifica padrões consistentes de ocupação, revelando correlações significativas entre gênero e a densidade média de moradores por domicílio no estado, validando a eficácia das técnicas de mineração de dados na interpretação de estatísticas populacionais.
 
 
 # Objetivo do Projeto
@@ -98,7 +98,7 @@ Os resultados mostraram:
 
 * crescimento de domicílios com poucos moradores;
 * mudanças no perfil das famílias brasileiras;
-* agrupamentos demográficos semelhantes entre municípios;
+* agrupamentos demográficos semelhantes entre os Estados;
 * fortes associações entre os padrões de moradores ao longo dos anos.
 
 O município de São Paulo foi analisado separadamente para comparação com os dados nacionais.
